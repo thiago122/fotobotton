@@ -1,0 +1,120 @@
+:root {
+    --color-primary: #fb4b59;
+    --color-yellow: #fee440;
+    --color-pink: #d90368;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.img img {
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    background: var(--color-yellow);
+    color: rgb(24, 24, 24);
+    padding-bottom: 50px;
+}
+
+.container {
+    width: 1024px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.img img {
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* ----------------------------------- */
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+/* ----------------------------------- */
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.profile__image {
+    max-width: 120px;
+    margin: 0 auto 20px auto;
+    display: block;
+    border-radius: 50%;
+}
+
+.profile__name {
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.profile__desc {
+    margin-bottom: 30px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+/* ----------------------------------- */
+
+.social-icons {
+    max-width: 600px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+
+.social-icons__link {
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-size: 20px;
+    color: white;
+    background-color: var(--color-pink);
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.social-icons__link:hover {
+    color: #d90368;
+    background-color: white;
+    box-shadow: 4px 4px 4px 1px rgba(0, 0, 0, 0.3);
+    transition: all 0.2s ease-in-out;
+}
+
+.social-icons__link.is-zap {
+    color: white;
+    background-color: #25d366;
+    box-shadow: 4px 4px 4px 1px rgba(0, 0, 0, 0.3);
+    transition: all 0.2s ease-in-out;
+}
+
+.social-icons__link.is-zap:hover {
+    color: #25d366;
+    background-color: white;
+    box-shadow: 4px 4px 4px 1px rgba(0, 0, 0, 0.3);
+    transition: all 0.2s ease-in-out;
+}
