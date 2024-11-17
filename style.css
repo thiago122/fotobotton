@@ -24,7 +24,7 @@ body {
 }
 
 .container {
-    width: 1024px;
+    max-width: 1024px;
     margin: 20px auto;
     padding: 20px;
 }
@@ -70,9 +70,9 @@ a {
 }
 
 .profile__desc {
-    margin-bottom: 30px;
-    font-size: 20px;
-    font-weight: 500;
+    margin-bottom: 10px;
+    font-size: 17px;
+    font-weight: 400;
 }
 
 /* ----------------------------------- */
@@ -86,8 +86,8 @@ a {
 }
 
 .social-icons__link {
-    padding: 20px;
-    margin-bottom: 20px;
+    padding: 10px 15px;
+    margin-bottom: 15px;
     border-radius: 20px;
     display: flex;
     align-items: center;
